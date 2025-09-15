@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header id="header">
+        <section class="cajaLogo">
+            <img src="./img/logo-laptop.avif" alt="Logo">
+        </section>
+        <nav class="cajaBarraNav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="cajaFormulario">
+            <p class="parrafoForm">Formulario</p>
+        </section>
+
+    </header>
+
+
+    <main id="main">
+        
+        <form action="./resultadoBusqueda.html" method="get">
+
+            <div>
+                <label for="">Ingrese Nombre de usuario</label>
+                <input type="text"  value="" placeholder="Ingrese nombre de usuario">
+            </div>
+
+            <div>
+                <label for="">Ingrese Email</label>
+                <input type="email"  value="@gmail.com">
+            </div>
+
+            <div>
+                <label for="">Ingrese su Edad</label>
+                <input type="number"  placeholder="Ingrese su edad">
+            </div>
+
+
+            <div>
+                <label for="">Contraseña</label>
+                <input type="password"  value="" placeholder="Ingrese su pasword">
+            </div>
+
+            <div>
+                <label for="">Asistio a clases?</label>
+                <input type="radio" name="asistencia" value="si"> <span>Si</span>
+
+                <input type="radio" name="asistencia" value="no"> <span>No</span>
+            </div>
+
+            <div>
+                <label for="">Mis hobbies</label>
+
+                <input type="checkbox" name="hobbies" value="futbol" checked> <span>Futbol</span>
+                <input type="checkbox" name="hobbies" value="softball"> <span>Softball</span>
+                <input type="checkbox" name="hobbies" value="basketball"> <span>Basketball</span>
+                <input type="checkbox" name="hobbies" value="tenis"> <span>Tenis</span>
+            </div>
+
+            <div>
+                <button type="button">Acciones</button>
+                <button disabled="disabled">Desabilitado</button>
+                <button type="reset">Borrar</button>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+
+    </main>
+    
+</body>
+</html>

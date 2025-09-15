@@ -1,0 +1,33 @@
+#titulo{
+   color: rgb(255, 13, 13);
+}
+
+li{
+    font-size: 20px;
+}
+
+.subtitulo{
+    font-size: 30px;
+    color: green;
+}
+
+h3.naranja{
+    color: orange;
+}
+
+.segundaLista .hija{
+    color: red;
+}
+
+.primeraLista{
+    display: none;
+}
+
+/* scaloneta styles */
+
+#scalonetaBody{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}

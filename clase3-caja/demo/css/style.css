@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+#bodyIndex {
+  background-color: bisque;
+}
+
+#headerIndex {
+  background-color: aqua;
+}
+
+a {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+.arg {
+  background-color: rgb(112, 211, 244);
+  color: white;
+}
+
+.bra {
+  background-color: green;
+  color: yellow;
+}
+
+#footerIndex {
+  background-color: blueviolet;
+}
+
+.lineas strong {
+  background-color: blue;
+}
+
+.fondoRojo {
+  background-color: red;
+  color: white;
+}
+
+/* Modelo de caja */
+
+.caja {
+  background-color: rgb(113, 113, 250);
+  color: white;
+  width: 120px;
+  height: 130px;
+  padding: 12px;
+  border: solid 3px green;
+  margin: 20px 10px;
+}
