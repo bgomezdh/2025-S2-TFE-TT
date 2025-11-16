@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+ul, ol, li{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+/* Header */
+.header{
+    background-color: #ffe600;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headerLogo, .headerNav{
+    width: 30%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headerForm{
+     width: 40%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headerForm form{
+    width: 100%;
+    height: 20vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headerForm form div input{
+    width: 100%;
+    height: 10vh;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+form .divInput{
+    width: 90%;
+}
+
+form .divBtn{
+    width: 10%;
+}
+
+form .divBtn button{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    border-left: 2px solid #ccc;
+}
+
+/* aside */
+.asideCategories nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* Index */
+.indexMain{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.asideCategories, .indexProductos{
+    background-color: #ebebebb7;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0px;
+}
+
+.listadoProductos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listadoProductosArticles{
+   
+    width: 100%;
+    padding: 20px;
+}
+
+.asideCategories {
+    width: 15%;
+}
+
+.indexProductos {
+    width: 80%;
+}
+
+.articleProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 19%;
+    height: 350px;
+    background-color: white;
+    padding: 35px 5px;
+    border-radius: 10px;
+
+}
+
+.articleProductoDetalle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 850px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 200px;
+    border-radius: 10px;
+
+
+}
+
+.articleProducto img{
+    margin: 40px 0px;
+    width: 100%;
+}
+
+.verMas{
+    background-color: #3483fa;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
